@@ -11,7 +11,7 @@ spring:
       
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3308/jspdb?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/jspdb?serverTimezone=Asia/Seoul
     username: jspbook
     password: passwd
     
