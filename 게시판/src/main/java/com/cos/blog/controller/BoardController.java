@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import com.cos.blog.service.BoardService;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BoardController {
@@ -53,10 +54,17 @@ public class BoardController {
 	@GetMapping("/board/news")
 	public String saveForm() {
 		return "board/saveForm";
-	}
+	}*/
 
 	@GetMapping("/board/roadmap")
-	public String saveForm() {
-		return "board/saveForm";*/
+	public String roadmap() {
+		return "board/roadmap";
+	}
+
+	@GetMapping("/board/roadmapDetail")
+	public String roadmapDetail(@RequestParam(value = "gitName")String gitName, Model model) {
+		model.addAttribute("gitName", gitName);
+		return "board/roadmapDetail";
+	}
 
 }
