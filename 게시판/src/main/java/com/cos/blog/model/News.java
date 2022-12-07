@@ -12,7 +12,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Builder
 @Entity
-public class news {
+public class News {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
