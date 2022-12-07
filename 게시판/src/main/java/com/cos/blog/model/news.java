@@ -18,14 +18,13 @@ public class news {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
     private int id;
 
-    @Column
-    private String author;
-
     @Column(nullable = false, length = 100)
     private String title;
 
     @Lob // 대용량 데이터
-    private String content; // 섬머노트 라이브러리 <html>태그가 섞여서 디자인이 됨.
+    private String link; // 섬머노트 라이브러리 <html>태그가 섞여서 디자인이 됨.
 
+    @Column
+    private String company;
 
 }
