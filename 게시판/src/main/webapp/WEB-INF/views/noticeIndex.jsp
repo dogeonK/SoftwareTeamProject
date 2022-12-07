@@ -45,8 +45,9 @@
                 <li class="page-item"><a class="page-link" href="?page=${boards.number+1}">Next</a></li>
             </c:otherwise>
         </c:choose>
-
     </ul>
+    <br>
+    <a class="nav-link" href="/notice/saveForm" align="center">공지사항 작성</a>
 
 
 </div>
