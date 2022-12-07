@@ -51,6 +51,35 @@
             <!-- 회원정보 입력/수정 시작 { -->
 
             <div class="register">
+                <form action="http://localhost:8080/board/redirect/${occupation}" method="get">
+                    <div id="register_form" class="form_01">
+                        <div class="register_form_inner">
+                            <h2>GitHub 코드 비율</h2>
+                            <ul>
+                                <li align="center">
+                                    <iframe height="500" height="200" src="https://github-readme-stats.vercel.app/api?username=${gitName}&show_icons=true"></iframe>
+                                    <iframe height="500" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=${gitName}&langs_count=8"></iframe>
+                                </li>
+                                <li>
+                                    <label>
+                                        희망 직종
+                                    </label>
+                                    <select name="occupation" class="frm_input full_input required ">
+                                        <option value="frontend" class="frm_input full_input required ">프론트엔드</option>
+                                        <option value="backend" class="frm_input full_input required ">백엔드</option>
+                                        <option value="devops" class="frm_input full_input required ">DevOps</option>
+                                        <option value="android" class="frm_input full_input required ">안드로이드</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btn_confirm">
+                        <a href="http://localhost:8080/" class="btn_close">취소</a>
+                        <button type="submit" id="btn_submit" class="btn_submit">로드맵 확인하기</button>
+                    </div>
+                </form>
+                <!--
                 <div class="tbl_frm01 tbl_wrap register_form_inner" align="center">
                     <h2>개인정보 입력</h2>
                     <iframe height="500" height="200" src="https://github-readme-stats.vercel.app/api?username=${gitName}&show_icons=true"></iframe>
@@ -59,7 +88,7 @@
             </div>
             <div class="btn_confirm">
                 <a href="http://localhost:8080/" class="btn_close">취소</a>
-                <button type="submit" id="btn_submit" class="btn_submit">로드맵 확인하기</button>
+                <button type="submit" id="btn_submit" class="btn_submit">로드맵 확인하기</button>-->
             </div>
 
         </div>

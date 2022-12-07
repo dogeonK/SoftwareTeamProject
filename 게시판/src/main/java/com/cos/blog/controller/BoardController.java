@@ -67,4 +67,11 @@ public class BoardController {
 		return "board/roadmapDetail";
 	}
 
+
+	@GetMapping("/board/redirect")
+	public String redirect(@RequestParam(value = "occupation")String occupation) {
+		final String url = "redirect:https://roadmap.sh/" + occupation;
+		return url;
+	}
+
 }
