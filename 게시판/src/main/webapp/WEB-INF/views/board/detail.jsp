@@ -4,7 +4,6 @@
 
 <div class="container">
 
-<<<<<<< HEAD
 	<div>
 		글 번호 : <span id="id"><i>${board.id} </i></span> 작성자 : <span><i>${board.user.username} </i></span>
 	</div>
@@ -57,7 +56,7 @@
 			</c:forEach>
 		</ul>
 	</div>
-=======
+
     <div>
         글 번호 : <span id="id"><i>${board.id} </i></span> 작성자 : <span><i>${board.user.username} </i></span>
     </div>
@@ -110,12 +109,7 @@
             </c:forEach>
         </ul>
     </div>
->>>>>>> 1b4d9427d536ae655584393ce5718c4a30a4494e
 </div>
 <script src="/js/board.js"></script>
 <%@ include file="../layout/footer.jsp"%>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1b4d9427d536ae655584393ce5718c4a30a4494e
