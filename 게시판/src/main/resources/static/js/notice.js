@@ -86,7 +86,7 @@ let index = {
 				dataType: "json"
 			}).done(function(resp){
 				alert("댓글작성이 완료되었습니다.");
-				location.href = `/board/${data.boardId}`;
+				location.href = `/notice/${data.boardId}`;
 			}).fail(function(error){
 				alert(JSON.stringify(error));
 			}); 
