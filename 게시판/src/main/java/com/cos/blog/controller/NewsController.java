@@ -20,5 +20,4 @@ public class NewsController {
         model.addAttribute("boards", newsService.글목록(pageable));
         return "newsIndex";
     }
-
 }
