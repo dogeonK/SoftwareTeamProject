@@ -20,7 +20,7 @@
             <div class="card m-2">
                 <div class="card-body">
                     <h4 style="font-size: 20px" class="card-title">${board.title}</h4>
-                    <p>${board.content}</p>
+                    <p>${board.link}</p>
                     <a href="/news/${board.id}" class="lt_more">더보기</a>
                 </div>
             </div>
