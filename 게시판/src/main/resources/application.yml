@@ -2,19 +2,19 @@ server:
   port: 8080
   servlet:
     context-path: /
-    
+
 spring:
   mvc:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
-      
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/jspdb?serverTimezone=Asia/Seoul
     username: jspbook
     password: passwd
-    
+
   jpa:
     open-in-view: true
     hibernate:
@@ -29,7 +29,7 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
-      
+
   http:
     encoding:
       charset: UTF-8
@@ -38,3 +38,12 @@ spring:
 
 cos:
   key: cos1234
+
+  # model 프로퍼티 camel case 설정
+  mybatis.configuration.map-underscore-to-camel-case=true
+
+  # xml파일 result type에 패키지명을 생략할 수 있도록 alias 설정
+  mybatis.type-aliases-package=com.example.mappertut.model
+
+  # Mybatis mapper 위치 설정
+  mybatis.mapper-locations= mapper/*.xml
