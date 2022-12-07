@@ -34,14 +34,6 @@
             <artifactId>tomcat-jasper</artifactId>
             <version>9.0.22</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.ibatis/ibatis-core -->
-        <dependency>
-            <groupId>org.apache.ibatis</groupId>
-            <artifactId>ibatis-core</artifactId>
-            <version>3.0</version>
-        </dependency>
-
         <!-- JSTL -->
         <dependency>
             <groupId>javax.servlet</groupId>

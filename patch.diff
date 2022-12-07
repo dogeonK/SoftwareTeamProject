@@ -1,0 +1,174 @@
+From 62685855741917b4f2b1303da914cb423da3dd10 Mon Sep 17 00:00:00 2001
+From: euihyuneee <lobil7782@gmail.com>
+Date: Wed, 7 Dec 2022 19:46:50 +0900
+Subject: [PATCH] =?UTF-8?q?[UPDATE]=20=EA=B2=8C=EC=8B=9C=ED=8C=90=20?=
+ =?UTF-8?q?=EA=B8=80=20=EB=AA=A9=EB=A1=9D=20=EB=B2=84=ED=8A=BC(=EB=8F=8C?=
+ =?UTF-8?q?=EC=95=84=EA=B0=80=EA=B8=B0,=20=EC=88=98=EC=A0=95,=20=EC=82=AD?=
+ =?UTF-8?q?=EC=A0=9C)=20=EC=9C=84=EC=B9=98=20=EC=88=98=EC=A0=95?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ .idea/vcs.xml                                 |  6 ++
+ .idea/workspace.xml                           | 86 +++++++++++++++++++
+ 게시판/src/main/resources/application.yml  |  2 +-
+ .../webapp/WEB-INF/views/board/detail.jsp     | 13 +--
+ 4 files changed, 100 insertions(+), 7 deletions(-)
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 .idea/workspace.xml
+
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..35eb1dd
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+index 0000000..876a8ca
+--- /dev/null
++++ b/.idea/workspace.xml
+@@ -0,0 +1,86 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="b6e1bfb9-9634-42c5-88d2-b1d658a2e43e" name="변경" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitSEFilterConfiguration">
++    <file-type-list>
++      <filtered-out-file-type name="LOCAL_BRANCH" />
++      <filtered-out-file-type name="REMOTE_BRANCH" />
++      <filtered-out-file-type name="TAG" />
++      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
++    </file-type-list>
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="MavenImportPreferences">
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="mavenHome" value="Use Maven wrapper" />
++        <option name="useMavenConfig" value="true" />
++      </MavenGeneralSettings>
++    </option>
++  </component>
++  <component name="ProjectId" id="2IXT4gJxzhmNFl0zMswYKAHWFa4" />
++  <component name="ProjectViewState">
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RequestMappingsPanelOrder0" value="0" />
++    <property name="RequestMappingsPanelOrder1" value="1" />
++    <property name="RequestMappingsPanelWidth0" value="75" />
++    <property name="RequestMappingsPanelWidth1" value="75" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/게시판" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
++    <property name="project.structure.last.edited" value="모듈" />
++    <property name="project.structure.proportion" value="0.0" />
++    <property name="project.structure.side.proportion" value="0.0" />
++    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
++  </component>
++  <component name="RunManager">
++    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
++      <module name="blog" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cos.blog.BlogApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="디폴트 작업">
++      <changelist id="b6e1bfb9-9634-42c5-88d2-b1d658a2e43e" name="변경" comment="" />
++      <created>1670326742190</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1670326742190</updated>
++      <workItem from="1670326743434" duration="8787000" />
++      <workItem from="1670408160994" duration="614000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/게시판/src/main/resources/application.yml b/게시판/src/main/resources/application.yml
+index aab1a63..573f91b 100644
+--- a/게시판/src/main/resources/application.yml
++++ b/게시판/src/main/resources/application.yml
+@@ -11,7 +11,7 @@ spring:
+       
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+-    url: jdbc:mysql://localhost:3306/jspdb?serverTimezone=Asia/Seoul
++    url: jdbc:mysql://localhost:3308/jspdb?serverTimezone=Asia/Seoul
+     username: jspbook
+     password: passwd
+     
+diff --git a/게시판/src/main/webapp/WEB-INF/views/board/detail.jsp b/게시판/src/main/webapp/WEB-INF/views/board/detail.jsp
+index 0d7d8f9..affc567 100644
+--- a/게시판/src/main/webapp/WEB-INF/views/board/detail.jsp
++++ b/게시판/src/main/webapp/WEB-INF/views/board/detail.jsp
+@@ -3,13 +3,7 @@
+ <%@ include file="../layout/header.jsp"%>
+ 
+ <div class="container">
+-	<button class="btn btn-secondary" onclick="history.back()">돌아가기</button>
+ 
+-	<c:if test="${board.user.id == principal.user.id}">
+-		<a href="/board/${board.id}/updateForm" class="btn btn-warning">수정</a>
+-		<button id="btn-delete" class="btn btn-danger">삭제</button>
+-	</c:if>
+-	<br /> <br />
+ 	<div>
+ 		글 번호 : <span id="id"><i>${board.id} </i></span> 작성자 : <span><i>${board.user.username} </i></span>
+ 	</div>
+@@ -22,6 +16,13 @@
+ 		<div>${board.content}</div>
+ 	</div>
+ 	<hr />
++	<button class="btn btn-secondary" onclick="history.back()">돌아가기</button>
++
++	<c:if test="${board.user.id == principal.user.id}">
++		<a href="/board/${board.id}/updateForm" class="btn btn-warning">수정</a>
++		<button id="btn-delete" class="btn btn-danger">삭제</button>
++	</c:if>
++	<br /> <br />
+ 
+ 	<div class="card">
+ 	    <form>
+-- 
+2.30.2.windows.1
+
