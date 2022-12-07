@@ -40,7 +40,8 @@
 						<li class="nav-item"><a class="nav-link" href="/board/saveForm">글쓰기</a></li>
 						<li class="nav-item"><a class="nav-link" href="/user/updateForm">회원정보</a></li>
 						<li class="nav-item"><a class="nav-link" href="/logout">로그아웃</a></li>
-						<li class="nav-item"><a class="nav-link" href="/board/notice">공지사항</a></li>
+						<li class="nav-item"><a class="nav-link" href="/notice">공지사항</a></li>
+						<li class="nav-item"><a class="nav-link" href="/notice/saveForm">공지사항 작성</a></li>
 						<li class="nav-item"><a class="nav-link" href="/board/news">뉴스</a></li>
 						<li class="nav-item"><a class="nav-link" href="/board/roadmap">로드맵</a></li>
 					</ul>
