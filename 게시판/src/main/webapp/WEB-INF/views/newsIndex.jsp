@@ -21,7 +21,7 @@
                 <div class="card-body">
                     <h4 style="font-size: 20px" class="card-title">${board.title}</h4>
                     <p>${board.content}</p>
-                    <a href="/notice/${board.id}" class="lt_more">더보기</a>
+                    <a href="/news/${board.id}" class="lt_more">더보기</a>
                 </div>
             </div>
         </c:forEach>

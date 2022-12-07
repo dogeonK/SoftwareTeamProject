@@ -16,9 +16,9 @@ public class NewsController {
     NewsService newsService;
 
     @GetMapping("/news")
-    public String newList(Model model, @PageableDefault(size=10, sort="id", direction = Sort.Direction.DESC) Pageable pageable){
-        model.addAttribute("news", newsService);
-        return "news";
+    public String newList(Model model, @PageableDefault(size=5, sort="id", direction = Sort.Direction.DESC) Pageable pageable){
+        model.addAttribute("boards", newsService.글목록(pageable));
+        return "newsIndex";
     }
 
 }
